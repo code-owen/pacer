@@ -3,13 +3,17 @@
 ## Useless Website Documentation
 
 Owen Laing
+
 Domain: TBD
-Github: [](https://github.com/code-owen/pacer)
+
+Github: <https://github.com/code-owen/pacer>
 
 ### Description
 
 Control a character sprite and pace around different settings to work off your anxiety when you can’t physically do so.
 The result will look like classic 16-bit side scrolling video games such as Contra and Super Mario where you control a 16-bit character on the screen in an environment.
+
+---
 
 ![Pacer Mockup](img/pacer-mockup-img.png)
 
