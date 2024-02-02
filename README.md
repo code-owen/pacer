@@ -6,8 +6,6 @@ Owen Laing
 Domain: TBD
 Github: [](https://github.com/code-owen/pacer)
 
--
-
 ### Description
 
 Control a character sprite and pace around different settings to work off your anxiety when you can’t physically do so.
@@ -29,10 +27,10 @@ background cards will have hover animations. When a background is selected the
 current background and the one selected will switch, with the current background
 occupying the space of the selected background.
 
--
+---
 
 ### Technology
 
--HTML
--CSS
--Javascript
+- HTML
+- CSS
+- Javascript
