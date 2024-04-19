@@ -10,15 +10,6 @@ window.addEventListener('load', function () {
   let character = new Image();
   character.src = 'img/Homeless_2_Spritelist.png';
   currentBackground.onload = function () {
-
-    /* function initialDraw() {
-      ctx.drawImage(currentBackground, x, y, CANVAS_WIDTH, CANVAS_HEIGHT);
-      drawArrows();
-      //drawCharacter();
-
-      character();
-    }; 
-    initialDraw();*/
     drawScene();
     
   };
@@ -52,7 +43,6 @@ window.addEventListener('load', function () {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(currentBackground, x, y, CANVAS_WIDTH, CANVAS_HEIGHT);
     drawArrows();
-    //drawCharacter();
   }
 
   class InputHandler {
@@ -193,7 +183,6 @@ window.addEventListener('load', function () {
     const deltaTime = timeStamp - lastTime;
     lastTime = timeStamp;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    //drawBackground(currentBackground);
     drawScene();
     player.draw(ctx);
     drawArrows();
